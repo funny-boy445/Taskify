@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--base-200);
+}
+
+.input-section input:focus {
+  outline: 2px solid var(--primary);
+}
+
+.table-container {
+  max-height: 60vh;
+}
+
+.todo-item.completed td {
+  text-decoration: line-through;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+
+.btn {
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
