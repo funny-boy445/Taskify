@@ -26,9 +26,17 @@ To run this application, you need the following:
 
 ### 1. Clone the Repository
 Clone this project to your local machine using the following commands:
+
+- SSH:
 ```bash
-git clone git@github.com:yourusername/todo-app.git
-cd todo-
+git clone git@github.com:funny-boy445/Taskify.git
+```
+- HTTPS:
+```bash
+git clone https://github.com/funny-boy445/Taskify.git
+
+```bash
+cd todo-app
 ```
 
 ### 2. Install Dependencies
