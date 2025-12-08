@@ -34,6 +34,7 @@ git clone git@github.com:funny-boy445/Taskify.git
 - HTTPS:
 ```bash
 git clone https://github.com/funny-boy445/Taskify.git
+```
 
 ```bash
 cd todo-app
