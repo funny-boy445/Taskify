@@ -1,4 +1,4 @@
-# To-Do App
+# Todo - App
 
 This is a simple yet functional To-Do application built with PHP and MySQL. It allows users to manage their tasks effectively by adding, completing, and deleting them. Additionally, the app sends email notifications whenever a new task is created, using PHPMailer.
 
@@ -29,15 +29,15 @@ Clone this project to your local machine using the following commands:
 
 - SSH:
 ```bash
-git clone git@github.com:funny-boy445/Taskify.git
+git clone git@github.com:funny-boy445/taskify-app.git
 ```
 - HTTPS:
 ```bash
-git clone https://github.com/funny-boy445/Taskify.git
+git clone https://github.com/funny-boy445/taskify-app.git
 ```
 
 ```bash
-cd todo-app
+cd taskify-app
 ```
 
 ### 2. Install Dependencies
@@ -54,8 +54,8 @@ composer install
    php setup_database.php
    ```
    This will:
-   - Create a database named `todo_db`.
-   - Create a table named `todo_db` with the necessary structure.
+   - Create a database named `taskify_db`.
+   - Create a table named `taskify_db` with the necessary structure.
    - Create a users table to manage user accounts.
 ---
 
@@ -66,7 +66,7 @@ composer install
    define('DB_HOST', 'localhost');
    define('DB_USER', 'root');
    define('DB_PASS', '');
-   define('DB_NAME', 'todo_db');
+   define('DB_NAME', 'taskify_db');
    ```
 
 ---
@@ -90,7 +90,7 @@ composer install
 2. Start your web server.
 3. Access the app in your browser:
    ```
-   http://localhost/todo-app/index.php
+   http://localhost/taskify-app/index.php
    ```
 
 ---
@@ -120,6 +120,3 @@ composer install
 
 ## License
 This project is open-source and available under the MIT License.
-
----
-```
