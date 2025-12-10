@@ -29,11 +29,11 @@ Clone this project to your local machine using the following commands:
 
 - SSH:
 ```bash
-git clone git@github.com:funny-boy445/taskify-app.git
+git clone git@github.com:hatim-ayyad/taskify-app.git
 ```
 - HTTPS:
 ```bash
-git clone https://github.com/funny-boy445/taskify-app.git
+git clone https://github.com/hatim-ayyad/taskify-app.git
 ```
 
 ```bash
